@@ -140,7 +140,7 @@ kubectl get ingress
 ```
 
 #### Step 2: Access the Application
-Open a browser and navigate to `http://hello.local`. You should see the message `Hello, Kubernetes!`.
+Open a browser and navigate to `http://.local`. You should see the message `Hello, Kubernetes!`.
 
 ---
 

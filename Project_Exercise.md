@@ -14,7 +14,7 @@ Develop a comprehensive Terraform project that meets the following advanced requ
 
 ### Kubernetes Cluster Requirements
 
-- [ ] Deploy a Kubernetes cluster using Minikube
+- [ ] Deploy a KAubernetes cluster using Minikube
 - [ ] Ensure robust and scalable cluster configuration
 - [ ] Support dynamic namespace creation
 

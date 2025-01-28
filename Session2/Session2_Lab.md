@@ -49,11 +49,6 @@ spec:
         - containerPort: 80
 ```
 
-or via kubectl
-```bash
-kubectl create deployment nginx-deployment --image nginx:1.21 --port 80
-```
-
 Apply the configuration:
 ```bash
 kubectl apply -f nginx-deployment.yaml
@@ -78,12 +73,6 @@ metadata:
 data:
   APP_ENV: "production"
   APP_DEBUG: "false"
-```
-
-or 
-
-```bash
-kubectl create configmap app-config --from-literal=APP_ENV=production --from-literal=APP_DEBUG=false
 ```
 
 Apply the ConfigMap:
@@ -126,12 +115,6 @@ stringData:
   DB_PASSWORD: "mysecretpassword"
 ```
 
-or via kubectl
-
-```bash
-kubectl create secret generic app-secret --from-literal=DB_PASSWORD=mysecretpassword
-```
-
 Apply the Secret:
 ```bash
 kubectl apply -f app-secret.yaml
@@ -155,11 +138,6 @@ spec:
     port: 80
     targetPort: 80
   type: NodePort
-```
-or
-
-```bash
-kubectl expose deployment nginx --target-port=80 --type NodePort
 ```
 
 Apply the Service:
