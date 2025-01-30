@@ -1,4 +1,5 @@
-client_name   = "meta"
-environment   = "dev"
-domain_name   = "meta.example.com"
-replica_count = 2
+client = "meta"
+domain = "odoo.meta.dev"
+environment = "dev"
+namespace = "meta-dev"
+replica_number = 2

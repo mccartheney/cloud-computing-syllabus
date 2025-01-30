@@ -1,4 +1,5 @@
-client_name   = "rockstar"
-environment   = "qa"
-domain_name   = "rockstar.example.com"
-replica_count = 1
+client = "rockstar"
+domain = "odoo.rockstar.dev"
+environment = "dev"
+namespace = "rockstar-dev"
+replica_number = 2
